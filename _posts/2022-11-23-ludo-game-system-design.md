@@ -2,7 +2,7 @@
 layout: post
 title:  "Ludo game - System design"
 date:   2022-11-23
-excerpt: "There is a lot of users who love to play online multiplayer games. Ludo is one of the simple multiplayer games. Hence, we'll talk about it's system today."
+excerpt: "There are a lot of users who love to play online multiplayer games. Ludo is one of the simple multiplayer games. Hence, we'll talk about it's system today."
 ---
 Ludo is a great game for both children and adults alike- especially people looking for something fun to do with their friends. 
 It can be played in various ways depending on how many people are playing and what variations they prefer to use. 
