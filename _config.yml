@@ -19,9 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Compiled Bytes
-email: sudipmondal.2002@rediffmail.com
-name: Sudip Mondal
-description: Hi there, thank you for landing here. I'm trying to compile all my day to day learnings inside these blogs. Hope you get what you're finding.
+logo: /assets/images/logo.png
 baseurl: ""
 url: "https://blog.sudipmondal.co.in" 
 twitter_username: SUDIPMO19931261
