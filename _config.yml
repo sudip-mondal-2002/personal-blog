@@ -27,11 +27,12 @@ twitter_username: SUDIPMO19931261
 github_username:  sudip-mondal-2002
 linkedin_username: sudipmondal2002
 
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
+future: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
