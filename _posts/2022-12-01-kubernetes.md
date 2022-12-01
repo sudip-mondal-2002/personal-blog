@@ -16,7 +16,6 @@ It was originally designed by Google and is now maintained by the Cloud Native C
 You need to know that microservices are a new architectural style of breaking down a service into multiple small ones. 
 They’re like Lego bricks: you can assemble them in many different ways and give them different shapes.
 
-<img align="right" src ="/assets/images/microservices-vs-monolithic.png" />
 Microservice architecture is an approach to developing software that breaks down large applications into smaller pieces called services, 
 each of which is responsible for performing just one function (e.g., connecting users with data). 
 This allows organizations to scale their applications independently, making it easier for them to maintain and update their code when necessary—and also easier for developers who aren't necessarily experts on how everything works together at once!
@@ -26,6 +25,8 @@ By breaking down your application into smaller services, each one can be updated
 So if you need to make a change that affects just one service, it won’t affect any other connected components—and this makes it much easier to maintain and update your code! 
 This also means that if one component fails or isn't working as expected, it doesn't bring down the entire application. 
 You can also scale each service independently, so if you need to increase performance or add a new feature on one of them, it won’t have an impact on any other components.
+
+<img src ="/assets/images/microservices-vs-monolithic.png" />
 
 ## Setup Kubernetes
 There are several ways you can setup kubernetes. However I recommend to install Docker desktop for Mac and Windows users and for linux users minikube is recommended.
