@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kubernetes: A way to play with microservices"
+title:  "Kubernetes: A way to play DevOps"
 date:   2022-12-01
 excerpt: "Kubernetes is at the cutting-edge of application deployment. The best way to kick-start your DevOps career is by learning how to effectively deploy Kubernetes.   "
 ---
