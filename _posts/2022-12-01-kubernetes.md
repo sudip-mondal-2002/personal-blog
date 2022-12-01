@@ -26,7 +26,7 @@ So if you need to make a change that affects just one service, it won’t affect
 This also means that if one component fails or isn't working as expected, it doesn't bring down the entire application. 
 You can also scale each service independently, so if you need to increase performance or add a new feature on one of them, it won’t have an impact on any other components.
 
-<img src ="/assets/images/microservices-vs-monolithic.png" />
+<img align="centre" src ="/assets/images/microservices-vs-monolithic.png" />
 
 ## Setup Kubernetes
 There are several ways you can setup kubernetes. However I recommend to install Docker desktop for Mac and Windows users and for linux users minikube is recommended.
