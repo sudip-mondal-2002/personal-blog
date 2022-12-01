@@ -10,11 +10,13 @@ The Kubernetes platform provides an open source framework for automating deploym
 Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. 
 It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.
 
-## Need of Kubernetes in the art of Microservices
+![k8s](/assets/images/kubernetes.png)
 
+## Need of Kubernetes in the art of Microservices
 You need to know that microservices are a new architectural style of breaking down a service into multiple small ones. 
 They’re like Lego bricks: you can assemble them in many different ways and give them different shapes.
 
+<img align="right" src ="/assets/images/microservices-vs-monolithic.png" />
 Microservice architecture is an approach to developing software that breaks down large applications into smaller pieces called services, 
 each of which is responsible for performing just one function (e.g., connecting users with data). 
 This allows organizations to scale their applications independently, making it easier for them to maintain and update their code when necessary—and also easier for developers who aren't necessarily experts on how everything works together at once!
@@ -31,7 +33,7 @@ However these provide you kubernetes clusters in which you can develop Kubernete
 In that case install kubectl. To get broader knowledge about how to use them, please head over to their respective websites.
 
 ## Components of Kubernetes:
-There are certain concepts that you should know about kubernetes.
+There are certain concepts that you should know about kubernetes. I'm talking about a few but there are a lot more than those:
   - Pod: Pods are the smallest, most basic deployable objects in Kubernetes. A Pod represents a single instance of a running process in your cluster. Pods contain one or more linux containers, such as Docker containers. When a Pod runs multiple containers, the containers are managed as a single entity and share the Pod's resources.
   - Deployment: A Kubernetes Deployment tells Kubernetes how to create or modify instances of the pods that hold a containerized application. Deployments can help to efficiently scale the number of replica pods, enable the rollout of updated code in a controlled manner, or roll back to an earlier deployment version if necessary.
   - Replicaset: A ReplicaSet (RS) is a Kubernetes object used to maintain a stable set of replicated pods running within a cluster at any given time. A Kubernetes pod is a cluster deployment unit that typically contains one or more containers. Pods (and, by extension, containers) are, nevertheless, short-lived entities.
@@ -58,5 +60,7 @@ Well, In this article, I am not explaining how to deploy microservices using k8s
 ## Autoscaling
 Autoscaling is one of the key features in Kubernetes cluster. 
 It is a feature in which the cluster is capable of increasing the number of nodes as the demand for service response increases and decrease the number of nodes as the requirement decreases.
+
+![k8s-microservices](/assets/images/kubernetes-microservices.png)
 
 The primary strength of Kubernetes is its modularity and generality. Nearly every kind of application that you might want to deploy you can fit within Kubernetes, and no matter what kind of adjustments or tuning you need to make to your system, they're generally possible.
