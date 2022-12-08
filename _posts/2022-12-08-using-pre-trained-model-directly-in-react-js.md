@@ -102,6 +102,8 @@ print(X_scales, Y_scales)
 
 There will be a folder has been created named `model` containing a `.json` and a `.bin` file. Save those for use in the React project.
 
+<img src="/assets/images/tensorflow-js.png" />
+
 
 ## Using the model in React project
 
@@ -112,8 +114,6 @@ $ npx create-react-app salary-predictor
 $ cd salary-predictor
 ```
 Now upload the `.json` and `.bin` file in the public directory. Also create a custom hook named `useSalaryModel.js` to use the model.
-
-<img src="/assets/images/tensorflow-js.png" width="300px" align="right"/>
 
 ![image](https://user-images.githubusercontent.com/74463091/206441643-0f23d050-41e1-429c-8b7a-bf19f947b1e8.png)
 
