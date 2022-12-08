@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using a Pre-trained Model in React.js Project"
+title:  "Using a Python trained ML Model in React.js Project"
 date:   2022-12-08
 excerpt: "Have you worked with website that contains simple machine learning models to predict things. Do you create a python server or something like that which serves one/two endpoints and basically doing the job of a simple function? Well if that so, then this article is for you."
 ---
