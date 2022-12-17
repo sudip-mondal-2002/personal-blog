@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The MVC Archetecture: Structured and Scalable Software Development"
-date:   2022-12-08
+date:   2022-12-17
 excerpt: "MVC is a software design pattern that separates an application into three main components: the model, the view, and the controller. This separation of concerns allows developers to create modular, scalable, and maintainable applications."
 ---
 
