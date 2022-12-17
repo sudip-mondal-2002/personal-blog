@@ -10,8 +10,7 @@ Each architectural component is built to handle specific development aspects of 
 The model is responsible for managing the data of the application. 
 It represents the state of the application and communicates with the database to perform operations on the data, such as creating, reading, updating, and deleting records. 
 The model is independent of the user interface (UI) of the application and can be used by multiple views.
-
-<img src="https://user-images.githubusercontent.com/74463091/208228793-8d00acab-6db1-4c68-847f-4e86769afd90.png" width=100% />
+<img src="https://user-images.githubusercontent.com/74463091/208228793-8d00acab-6db1-4c68-847f-4e86769afd90.png" width="100%" />
 
 
 The view is responsible for generating the UI of the application and displaying the data to the user. 
